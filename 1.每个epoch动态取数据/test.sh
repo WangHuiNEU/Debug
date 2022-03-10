@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES='0'                               python                              run.py --mode train --epoch 40 --item_tower id                             --batch_size 1024 --lr 0.001 --weight_decay 0.01                             --embedding_dim 64  --drop_rate 0.2                              --label_screen id_bs1024_ed64_lr0.001_dp0.2_wd0.01
